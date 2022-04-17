@@ -49,7 +49,7 @@ function getPost(){
                     </div>
             `;
         });
-
+        document.getElementById('user-header').classList.add("show");
         document.getElementById('Posts').innerHTML = output
         document.getElementById('Posts').removeEventListener("click", getUser);
     })
